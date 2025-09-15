@@ -7,10 +7,12 @@ Genration data sets (GDSs) can be **sqeuential (PS), direct or partitioned data 
 
 # Naming of GDG?
 All datasets (genrations) withing GDG share the common name except the last qualifer, which is combination of the genration number and version number.The common name is called as "**GDG Base**", and the remaining datasets with a different qualifier at the end are called as "**GDG Files or GDG Genrations**". At any point in time, a GDG can have a maximum 255 genrations.
+
 <img width="410" height="78" alt="image" src="https://github.com/user-attachments/assets/9e5cd0d5-a42e-4cf7-b1b9-7ca7759dcecc" />
 
 # Absolute (full) Genration & Version Numbers -
 The genration and version numbers are used to identify a specific generation of GDG. The format is -
+
 <img width="409" height="39" alt="image" src="https://github.com/user-attachments/assets/2637ebd5-3901-4313-8c33-839bf19fb3ed" />
 
 In the above -
@@ -20,7 +22,8 @@ In the above -
 # Relative Version Numbers-
 We can also use relative generation numbers to refer the GDG datasets based on their postion from the latest GDG file. 
 - For ex., X.Y.Z(-1), X.Y.Z(+1) or X.Y.Z(0)
-  <img width="400" height="38" alt="image" src="https://github.com/user-attachments/assets/6dde32cf-5784-45ba-81d5-ec1a12da8ab6" />
+  
+<img width="400" height="38" alt="image" src="https://github.com/user-attachments/assets/6dde32cf-5784-45ba-81d5-ec1a12da8ab6" />
 
 In the above -
 **- MATEPK.TEST.GDG** is the GDG base name
@@ -28,6 +31,7 @@ In the above -
 
 **Example-** Let us assume we have a GDG like the one below, and we will discuss how the raltive number is used on it.
 <img width="409" height="74" alt="image" src="https://github.com/user-attachments/assets/8d7992a1-2404-4f76-a04b-9af785f58cfc" />
+
 **- MATEPK.TEST.GDG(0)** refers to the latest genration. From the above example, it refers to MATEPK.TEST.GDG.G0002V00.
 **-MATEPK.TEST.GDG(-nnn)** refers to the previous genartion from the latest. From the example, MATEPK.TEST.GDG(-1) refers MATEPK.TEST.GDG.G0001V00.
 **-MATEPK.TEST.GDG(+nnn)** refers to the newly created genration on top of the latest genration. From the example, MATEPK.TEST.GDG(+1) refers MATEPK.TEST.GDG.G0003V00.
