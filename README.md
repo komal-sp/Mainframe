@@ -1,3 +1,3 @@
 # Mainframe
 
-## 📚 [GDG](Mainframe/GDG/Introduction.md)
+## 📚 [GDG](GDG/Introduction.md)
