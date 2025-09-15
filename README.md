@@ -1,3 +1,3 @@
 # Mainframe
 
-## 📚 [GDG](GDG)
+## 📚 [GDG](https://github.com/komal-sp/Mainframe/tree/main/GDG)
