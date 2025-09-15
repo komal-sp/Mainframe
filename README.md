@@ -1,4 +1,3 @@
 # Mainframe
 
-## 📚 GDG
--[GDG](Mainframe/GDG/)
+## 📚 GDG(Mainframe/GDG/)
